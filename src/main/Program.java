@@ -1,4 +1,3 @@
-import com.drew.imaging.ImageMetadataReader;
 import com.drew.imaging.mp4.Mp4MetadataReader;
 import com.drew.imaging.ImageProcessingException;
 import com.drew.metadata.Directory;
@@ -12,7 +11,7 @@ import java.io.InputStream;
 
 public class Program {
     public static void main(String[] args) throws IOException, ImageProcessingException {
-        String path = "C:\\Users\\ttzaf\\Desktop\\Research\\benign\\Plant - 24105.mp4";
+        String path = "C:\\Users\\ttzafrir\\Desktop\\test_b_vid.mp4";
         FeatureExtractorFixedFeaturesKnowledgeBasedMp4 test = new FeatureExtractorFixedFeaturesKnowledgeBasedMp4();
         FeatureExtractorFixedFeaturesKnowledgeBasedMp4.extractFeaturesFromSingleElement(path);
         printElements(path);

@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException, InvalidFormatException {
-        String path = "C:/Users/ttzaf/Desktop/Best Samples/48cc1a938e8830c93f87741505cfdd8d41c3bfaeddd0a4b3c154495560a9f4d7";
+        String path = "C:\\Users\\ttzafrir\\Desktop\\test_b_vid.mp4";
         AtomList atoms = new AtomList(path);
 
         if (args.length > 1) {
@@ -18,7 +18,7 @@ public class Main {
         } else {
             System.out.println(atoms);
         }
-        /*
+        System.out.println("next");
         File file = new File(path);
         Track[] tracks = file.getMovie().getTracks();
         for (int i=0; i<tracks.length; i++) {
@@ -26,6 +26,6 @@ public class Main {
             System.out.println("  Type: " + tracks[i].getType());
         }
         System.out.println(file.getMovie().getMoovAtom());
-        System.out.println("to_string");*/
+        System.out.println("to_string");
     }
 }

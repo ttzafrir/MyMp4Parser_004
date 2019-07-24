@@ -1,3 +1,5 @@
+package lib;
+
 import com.drew.imaging.ImageProcessingException;
 import com.drew.imaging.mp4.Mp4MetadataReader;
 import com.drew.metadata.Directory;
